@@ -16,11 +16,11 @@
         const clickme = document.getElementById('clickme');
 
         async function getRandomNess() {
-            RandomNess.textContent = "Are you really sure you want a random color?";
+            randomNess.textContent = "Are you really sure you want a random color?";
             try {
                 const response = await fetch('https://catfacts.ninja/facts');
                 const data = await response.json();
-                RandomNess.textContent = data.fact;
+                randomNess.textContent = data.fact;
             }
             
             catch (error) {
@@ -37,6 +37,7 @@
 
 <footer>Chris Stewart Web 238 Assignment 3</footer>
 </html>
+
 
 
 
