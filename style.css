@@ -1,0 +1,57 @@
+
+
+Body {  background-color:black;
+	    color: silver; 
+	    font-family: Arial, Helvetica, san-serif; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+
+    }
+
+
+
+
+
+
+#randomness {
+    background: white;
+    color:gold;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px brown;
+    }
+
+button {
+    background: grey;
+    color: white;
+    cursor:crosshair;
+    border-radius: 5px;
+    border: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    color: blueviolet;
+
+}
+
+
+footer { 
+	 padding: 2em;
+	 font-size: 75%;
+	 font-style: italic; 
+	 text-align: center;
+	 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         
+}
+
+
+
